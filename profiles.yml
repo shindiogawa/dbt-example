@@ -1,0 +1,20 @@
+
+# For more information on how to configure this file, please see:
+# https://docs.getdbt.com/docs/profile
+
+snowflake-edw:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ???
+
+      user: ???
+      password: ???
+
+      role: ???
+      database: ???
+      warehouse: ???
+      schema: ???
+      threads: 4
+      client_session_keep_alive: False
